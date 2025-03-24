@@ -6,4 +6,4 @@ Para el micrositio de conóceles 2025 se tiene lo siguiente:
 2. Usa bootstrap 5 y estilos CSS
 3. Para ver el contenido de manera local, se puede colocar en un servidor apache
 
-Nota: Esto una prueba de creacion del branch de keni
+Nota: Esto una prueba de creacion
