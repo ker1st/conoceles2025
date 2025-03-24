@@ -1,0 +1,82 @@
+/*Estilos*/
+/* Botones personalizados */
+.nav-customize .nav-link {
+    background-color: #6a0dad !important;
+    color: white !important;
+    border: none !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 10px 10px !important;
+}
+
+/* Hover */
+.nav-customize .nav-link:hover {
+    background-color: #522A78 !important;
+    color: white !important;
+}
+
+/* Activo - seleccionado */
+.nav-customize .nav-link.active,
+.nav-customize .nav-link:active {
+    background-color: #6a0dad !important;
+    color: white !important;
+}
+
+
+.nav-customize .nav-link:not(.active) {
+    background-color: #9b59b6 !important;
+}
+
+.bg-iecm {
+    background-color: #522A78;
+}
+
+.card-iecm {
+    margin-bottom: -70px;
+    background: rgb(193,170,208);
+    background: linear-gradient(
+        180deg, rgba(193,170,208,1) 14%, 
+        rgba(255,255,255,0.3337710084033614) 97%);
+}
+
+
+.table thead th {
+    background-color: #522A78 !important;
+    color: white !important;
+}
+
+.jud-img {
+    height: 95px !important;
+    background-color: transparent !important;
+    border: none !important;
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+bg-purple {
+    background: purple !important;
+}
+
+
+.video-guide {
+    position: relative !important;
+    width: 100% !important;
+    padding-bottom: 56.25% !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    max-width: 100% !important;
+}
+
+.icon-circle {
+    display: inline-flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 70px !important;  /* Tamaño del círculo */
+    height: 70px !important;  /* Tamaño del círculo */
+    border-radius: 50%;  /* Para hacer el círculo */
+    background-color: #232727eb;  /* Color de fondo del círculo */
+    color: white;  /* Color del ícono */
+    align-content: center !important;
+    font-size: 50px !important;  /* Tamaño del ícono */
+}
